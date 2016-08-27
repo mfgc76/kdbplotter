@@ -3,9 +3,9 @@ easily plot charts from data in kdb
 
 This stand alone java app connects to a kdb database and uses the resulting
 list or table to create charts
-- point, line, bar, timeseries, candlestick and bubblecharts (using the jfreecharts library)
+- supports point, line, bar, timeseries, candlestick and bubblecharts (using the jfreecharts library)
 - and treemap charts (using jtreemap)
-- autorefresh timer in seconds can be set, to remove untick
+- autorefresh timer in seconds can be set, to remove untick refresh
 - point,line,bar charts expect a list or a table with one or 2 columns
 - timeseries requires a 2 column table (x:time,y:data)
 - candlestick requires a 5 or 6 column table (x:time,y:open,high,low,close,volume), with volume being optional

@@ -15,7 +15,7 @@ list or table to create charts. It can be useful especially in finance.
 
 Example
 
--for a 5min candlestick chart using 1min ohlcv data: 
+- for a 5min candlestick chart using 1min ohlcv data: 
 0!select Open:first lastprc,High:max lastprc,Low:min lastprc,Close:last lastprc,Volume:last volume-first volume by 5 xbar time.minute from trades where sym=`AAPL ,time>=09:30,time<16:00
 
 ![<oocalc image>](https://github.com/mfgc76/kdbplotter/blob/master/img/kdbplotter1.png)

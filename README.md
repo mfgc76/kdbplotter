@@ -19,7 +19,7 @@ Example
 - for a 5min candlestick chart using 1min ohlcv data: 
 0!select Open:first lastprc,High:max lastprc,Low:min lastprc,Close:last lastprc,Volume:last volume-first volume by 5 xbar time.minute from trades where sym=`AAPL ,time>=09:30,time<16:00
 
-![<oocalc image>](https://github.com/mfgc76/kdbplotter/blob/master/img/kdbplotter1.png)
+![<oocalc image>](https://github.com/mfitsilis/kdbplotter/blob/master/img/kdbplotter1.png)
 
 - To run double click the excutable or use java -jar kdbplotter.jar. The large filesize is due to the included jfreechart library(over 1mb)
 - To build import project into Eclipse, jfreecharts and jtreemap libraries are included

@@ -1,5 +1,5 @@
 # kdbplotter
-easily plot charts from data in kdb
+easily create charts from data in kdb
 
 This stand alone java app connects to a kdb database and uses the resulting
 list or table to create charts. It can be useful especially in finance.

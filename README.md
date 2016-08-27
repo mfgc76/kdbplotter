@@ -2,7 +2,8 @@
 easily plot charts from data in kdb
 
 This stand alone java app connects to a kdb database and uses the resulting
-list or table to create charts
+list or table to create charts. It can be useful especially in finance.
+
 - supports point, line, bar, timeseries, candlestick and bubblecharts (using the jfreecharts library)
 - and treemap charts (using jtreemap)
 - autorefresh timer in seconds can be set, to remove untick refresh
@@ -11,8 +12,6 @@ list or table to create charts
 - candlestick requires a 5 or 6 column table (1:time,2:open,3:high,4:low,5:close,6:volume), with volume being optional
 - bubblechart requires a 4 column table (1:symbol,2:x-value,3:y-value,4:bubble size)
 - treemap requires a 3 column table (1:symbol,2:rect size,3:color)
-
-It can be useful especially in finance
 
 Example
 

@@ -12,7 +12,7 @@ list or table to create charts. It can be useful especially in finance.
 - candlestick requires a 5 or 6 column table (1:time,2:open,3:high,4:low,5:close,6:volume), with volume being optional
 - bubblechart requires a 4 column table (1:symbol,2:x-value,3:y-value,4:bubble size)
 - treemap requires a 3 column table (1:symbol,2:rect size,3:color)
-- username,password are optional,empty host is localhost
+- username,password are optional,empty host is localhost, port is always required
 
 Example
 

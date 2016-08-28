@@ -1,5 +1,5 @@
 # kdbplotter
-easily create charts from data in kdb
+create charts from data in kdb
 
 This stand alone java app connects to a kdb database and uses the resulting
 list or table to create charts. It can be useful especially in finance.
@@ -21,6 +21,6 @@ Example
 
 ![<oocalc image>](https://github.com/mfitsilis/kdbplotter/blob/master/img/kdbplotter1.png)
 
-- To run double click the excutable or use java -jar kdbplotter.jar. The large filesize is due to the included jfreechart library(over 1mb)
+- To run double click the executable or use java -jar kdbplotter.jar. The large filesize is due to the included jfreechart library(over 1mb)
 - To build import project into Eclipse, jfreecharts and jtreemap libraries are included
 - Built with Java7, tested with [kdb+](https://kx.com/) 3.2, [jfreecharts](http://www.jfree.org/jfreechart/) 1.0.19, [jtreemap](http://jtreemap.sourceforge.net/)
